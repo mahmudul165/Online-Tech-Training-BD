@@ -14,7 +14,7 @@ const Services = () => {
   const [courses, setCourse] = useCourse();
   return (
     <Container className="my-5">
-      <h1>Courses</h1>
+      <h1 className="about-title">Courses</h1>
       <Row xs={1} md={3} className="g-4 gy-4">
         {courses.map((course) => (
           <Col>

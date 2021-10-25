@@ -10,7 +10,7 @@ const Instructor = () => {
   const [courses, setCourse] = useCourse();
   return (
     <Container className="my-5">
-      <h1>Trainer</h1>
+      <h1 className="about-title">All Course Trainer</h1>
       <Row xs={1} md={2} className="g-4 gy-4">
         {courses.map((course) => (
           <Col>

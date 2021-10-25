@@ -13,7 +13,11 @@ const Header = () => {
   return (
     <Navbar bg="light" expand="lg">
       <Container fluid>
-        <Navbar.Brand to="">Online Tech Center BD</Navbar.Brand>
+        <Navbar.Brand>
+          <NavLink exact to="/">
+            Online Tech Center BD
+          </NavLink>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -22,18 +26,50 @@ const Header = () => {
             navbarScroll
           >
             <Nav.Link>
-              <NavLink to="/home">Home</NavLink>
+              <NavLink
+                to="/home"
+                activeStyle={{
+                  fontWeight: "bold",
+                  color: "#8a2be2",
+                }}
+              >
+                Home
+              </NavLink>
             </Nav.Link>
             <Nav.Link>
-              <NavLink to="/about">About</NavLink>
+              <NavLink
+                to="/about"
+                activeStyle={{
+                  fontWeight: "bold",
+                  color: "#8a2be2",
+                }}
+              >
+                About
+              </NavLink>
             </Nav.Link>
 
             <Nav.Link>
-              <NavLink to="/services">Services</NavLink>
+              <NavLink
+                to="/services"
+                activeStyle={{
+                  fontWeight: "bold",
+                  color: "#8a2be2",
+                }}
+              >
+                Services
+              </NavLink>
             </Nav.Link>
 
             <Nav.Link>
-              <NavLink to="/instructor">Instructor</NavLink>
+              <NavLink
+                to="/instructor"
+                activeStyle={{
+                  fontWeight: "bold",
+                  color: "#8a2be2",
+                }}
+              >
+                Instructor
+              </NavLink>
             </Nav.Link>
           </Nav>
           <Form className="d-flex">

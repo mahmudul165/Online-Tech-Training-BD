@@ -1,0 +1,64 @@
+.slide-container {
+  background-color: blueviolet;
+  height: fit-content;
+  padding: 5px;
+}
+.banner-one__title {
+  color: white;
+  font-size: 32px;
+  padding: 10px;
+}
+.banner-one__tag-line {
+  padding: 5px;
+}
+.banner-one__bubble-1 {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  --blue: #007bff;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  --swiper-theme-color: #007aff;
+  --swiper-navigation-size: 44px;
+  font-weight: 400;
+  text-align: left;
+  font-family: "Poppins";
+  color: #81868a;
+  font-size: 16px;
+  line-height: 34px;
+  letter-spacing: -0.02em;
+  list-style: none;
+  box-sizing: border-box;
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: #1888c9;
+  top: 20%;
+  left: -3%;
+  animation-name: bubbleMoveOne;
+  transform-origin: top left;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+}
+.banner-one__bubble-2 {
+  border-radius: 50%;
+  background-color: #7c4bc0;
+  animation-name: bubbleMoveTwo;
+  transform-origin: center center;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+}

@@ -1,26 +1,28 @@
 import React from "react";
 import { Card, CardGroup, Col, Container, Row } from "react-bootstrap";
-
+import "../About/About.css";
 const About = () => {
   return (
     <Container className="my-4 p-1">
-      <div className="vc_column-inner my-4 pb-3">
-        <div className="wpb_wrapper">
-          <p>Explore the Wide Range of Options</p>
-          <h2>The Best Course Design for you crafted by professionals</h2>
-
+      <div className=" my-4 pb-3">
+        <div className="">
+          <h3 className="about-title">
+            The Best Course Design for you crafted by professionals
+          </h3>
           <p>
             But I must explain to you how all this mistaken idea of denouncing
             pleasure and praising pain was born and I will give you a complete
             account of the system, and expound the actual teachings of the
             great.
           </p>
-          {/* <h6>Mahmudul Hasan</h6>
-          <p>-Online Tech Course BD</p> */}
+          <div className="d-flex justify-content-center">
+            <small>Mahmudul Hasan</small>
+            <small className="about-title mx-2">-Online Tech Course BD</small>
+          </div>
         </div>
       </div>
 
-      <Row xs={1} md={2} className="g-6  mt-3">
+      <Row xs={1} md={2} className="g-6 P-4  mt-3">
         <Col>
           <Card>
             <Card.Img
