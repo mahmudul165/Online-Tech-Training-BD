@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <Navbar bg="light" expand="lg">
       <Container fluid>
-        <Navbar.Brand to="">Online Tech Course BD</Navbar.Brand>
+        <Navbar.Brand to="">Online Tech Center BD</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
