@@ -15,7 +15,7 @@ const Header = () => {
       <Container fluid>
         <Navbar.Brand>
           <NavLink exact to="/">
-            Online Tech Center BD
+            Online Tech Training BD
           </NavLink>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
