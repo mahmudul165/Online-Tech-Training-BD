@@ -4,7 +4,7 @@ import { Card, CardGroup, Col, Container, Row } from "react-bootstrap";
 const About = () => {
   return (
     <Container className="my-4 p-1">
-      <div className="vc_column-inner my-4 ">
+      <div className="vc_column-inner my-4 pb-3">
         <div className="wpb_wrapper">
           <p>Explore the Wide Range of Options</p>
           <h2>The Best Course Design for you crafted by professionals</h2>
@@ -15,14 +15,12 @@ const About = () => {
             account of the system, and expound the actual teachings of the
             great.
           </p>
-
-          <h6>Mahmudul Hasan</h6>
-
-          <p>-Online Tech Course BD</p>
+          {/* <h6>Mahmudul Hasan</h6>
+          <p>-Online Tech Course BD</p> */}
         </div>
       </div>
 
-      <Row xs={1} md={2} className="g-4">
+      <Row xs={1} md={2} className="g-6  mt-3">
         <Col>
           <Card>
             <Card.Img

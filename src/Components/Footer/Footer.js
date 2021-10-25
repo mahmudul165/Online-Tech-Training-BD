@@ -6,14 +6,38 @@ const Footer = () => {
     <MDBFooter color="blue" className="font-small pt-4 mt-4">
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
-          <MDBCol md="6">
-            <h5 className="title">Footer Content</h5>
-            <p>
-              Here you can use rows and columns here to organize your footer
-              content.
-            </p>
+          <h5 className="title my-3">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem,
+            quod.
+          </h5>
+          <p>
+            Here you can use rows and columns here to organize your footer
+            content.
+          </p>
+
+          <MDBCol md="4">
+            <h5>Contact us</h5>
+            <div>
+              <p>Address: Address77 bd St. dhaka</p>
+              <p>Phone: 01740170176</p>
+              <p>Email: onlinebd@example.com</p>
+            </div>
           </MDBCol>
-          <MDBCol md="6">
+          <MDBCol md="4">
+            <ul>
+              <li className="list-unstyled">
+                <h5 href="#"> About</h5>
+              </li>
+              <li className="list-unstyled">
+                <a href="#">Talk To Us</a>
+              </li>
+              <li className="list-unstyled">
+                <a href="#">Help</a>
+              </li>
+            </ul>
+          </MDBCol>
+
+          <MDBCol md="4">
             <h5 className="title">Links</h5>
             <ol>
               <li className="list-unstyled">

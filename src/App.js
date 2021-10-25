@@ -24,13 +24,13 @@ function App() {
           <Route path="/about">
             <About></About>
           </Route>
-          <Route path="/courses">
+          <Route path="/services">
             <Services></Services>
           </Route>
           <Route path="/instructor">
             <Instructor></Instructor>
           </Route>
-          <Route path="/instructor">
+          <Route path="*">
             <NotFound></NotFound>
           </Route>
         </Switch>
