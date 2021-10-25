@@ -4,7 +4,7 @@ import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 const Footer = () => {
   return (
     <MDBFooter color="blue" className="font-small pt-4 mt-4">
-      {/*  */}
+      {/* social media uses */}
       <section className="mb-4">
         <a
           className="btn btn-outline-light btn-floating m-1"
@@ -49,6 +49,7 @@ const Footer = () => {
           <i className="fab fa-github"></i>
         </a>
       </section>
+      {/* email subcription to collect user data */}
       <section className="">
         <form action="">
           <div className="row d-flex justify-content-center">
@@ -75,7 +76,7 @@ const Footer = () => {
           </div>
         </form>
       </section>
-      {/*  */}
+      {/*  CONTRACT AND OTHER PAGE LINK */}
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
           <h5 className="title my-3">

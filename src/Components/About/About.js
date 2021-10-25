@@ -21,7 +21,7 @@ const About = () => {
           </div>
         </div>
       </div>
-
+      {/* CARD FOR SHOW ABOUT US OUS LEARNING PLATFROM */}
       <Row xs={1} md={2} className="g-6 P-4  mt-3">
         <Col>
           <Card>

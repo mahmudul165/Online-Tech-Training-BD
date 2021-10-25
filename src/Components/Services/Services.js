@@ -11,11 +11,13 @@ const Services = () => {
   const element = <FontAwesomeIcon icon={faClock} />;
   const book = <FontAwesomeIcon icon={faBook} />;
   const shooping = <FontAwesomeIcon icon={faShoppingCart} />;
+  // destructure from custom hook
   const [courses, setCourse] = useCourse();
   return (
     <Container className="my-5">
       <h1 className="about-title">Courses</h1>
       <Row xs={1} md={3} className="g-4 gy-4">
+        {/* DYNAMIC DATA LOAD FROM USEIN MAP ON AN ARRAY */}
         {courses.map((course) => (
           <Col>
             <Card>
@@ -50,8 +52,6 @@ const Services = () => {
           </Col>
         ))}
       </Row>
-
-      {/* new design */}
     </Container>
   );
 };

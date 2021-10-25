@@ -12,9 +12,10 @@ function App() {
   return (
     <div className="App">
       <Router>
+        {/* here added header cause we show it all the pages that why use in router but out of switch */}
         <Header></Header>
-
         <Switch>
+          {/* switch ro to route path and run the specefic component */}
           <Route exact path="/">
             <Home></Home>
           </Route>
@@ -30,6 +31,7 @@ function App() {
           <Route path="/instructor">
             <Instructor></Instructor>
           </Route>
+          {/* if any one loadedd invalid url then go on this route */}
           <Route path="*">
             <NotFound></NotFound>
           </Route>
